@@ -96,7 +96,8 @@ function loadQuiz(){
     c_text.innerText = currentQuizData.c;
     d_text.innerText = currentQuizData.d;
 
-
+    let muestra = currentQuiz +1;
+    document.getElementById('contador').innerHTML = 'Pregunta: '+muestra+'/'+quizData.length;
 }
 
 function getSelected(){

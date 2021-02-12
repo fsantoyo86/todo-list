@@ -11,6 +11,15 @@ body{
     min-height: 100vh;
 }
 
+.numero{
+    color:rgb(223, 58, 107);
+    background-color: white;
+    font-weight: bold;
+    font-size: 24px;
+    display: flex;
+    justify-content: flex-end;
+}
+
 span{
     color: rgb(250, 242, 242);
     background-color: rgb(245, 56, 56);
